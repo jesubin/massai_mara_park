@@ -33,3 +33,7 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+springBoot {
+    mainClass = 'subin.spring.massai_mara_park.MassaiMaraParkApplication'
+}
